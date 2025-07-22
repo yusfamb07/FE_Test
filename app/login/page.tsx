@@ -44,7 +44,12 @@ export default function LoginPage() {
 
     try {
       const success = await login(username, password);
-      if (!success) {
+      if (success) {
+        toast({
+          title: "Login Success",
+          variant: "destructive",
+        });
+      } else {
         toast({
           title: "Login Gagal",
           description: "Username atau password salah",

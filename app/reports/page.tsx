@@ -310,7 +310,7 @@ export default function ReportsPage() {
                   <RotateCcw className="mr-2 h-4 w-4" />
                   Reset
                 </Button>
-                <Button onClick={handleExport}>
+                <Button>
                   <Download className="mr-2 h-4 w-4" />
                   Export
                 </Button>

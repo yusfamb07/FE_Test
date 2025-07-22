@@ -96,7 +96,7 @@ export default function DashboardPage() {
                   />
                 </div>
               </div>
-              <div>
+              <div className="mt-7 flex items-center gap-2">
                 <Label>Tanggal</Label>
                 <Popover>
                   <PopoverTrigger asChild>
