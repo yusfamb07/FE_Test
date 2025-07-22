@@ -47,7 +47,6 @@ export default function LoginPage() {
       if (success) {
         toast({
           title: "Login Success",
-          variant: "destructive",
         });
       } else {
         toast({
@@ -77,12 +76,12 @@ export default function LoginPage() {
           <div className="text-center">
             <div className="mx-auto w-auto h-20 0 rounded-lg flex items-center justify-center mb-8">
               <div className="flex items-center gap-2">
-                <Car className="h-10 w-10 text-blue-600" />
-                <div className="text-left">
-                  <div className="text-sm font-bold text-gray-800">
-                    Management Tol
-                  </div>
-                  <div className="text-xs text-gray-600">SYSTEM</div>
+                <Car className="h-10 w-10 text-blue-600 mr-3 flex-shrink-0" />
+                <div className="min-w-0">
+                  <h1 className="text-lg font-semibold text-gray-900 truncate">
+                    Sistem Tol
+                  </h1>
+                  <p className="text-sm text-gray-500 truncate">Management</p>
                 </div>
               </div>
             </div>
